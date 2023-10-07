@@ -9,7 +9,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
-func Connect() {
+func Connect() *ethclient.Client {
 	err := godotenv.Load()
 	if err != nil {
 		log.Fatal("Error loading .env file")
@@ -24,5 +24,5 @@ func Connect() {
 	}
 
 	fmt.Println("we have a connection")
-	_ = client // we'll use this in the upcoming sections
+	return client // we'll use this in the upcoming sections
 }
