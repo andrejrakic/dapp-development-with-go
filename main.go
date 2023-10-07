@@ -1,6 +1,10 @@
 package main
 
+import (
+	"github.com/andrejrakic/dapp-development-with-go/client"
+)
+
 func main() {
-	Connect()
+	client.Connect()
 	Address()
 }

@@ -20,3 +20,4 @@ For educational purposes only
 - https://go.dev/doc/modules/layout
 - https://github.com/golang-standards/project-layout
 - In Go, a function whose name starts with a capital letter can be called by a function not in the same package. This is known in Go as an exported name.
+- https://go.dev/doc/code
